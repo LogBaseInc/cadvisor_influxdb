@@ -19,4 +19,4 @@ Refer https://github.com/google/cadvisor for updated run instructions. This imag
       --detach=true \
       --name=cadvisor \
       -e RUN_OPTS="-storage_driver=influxdb -storage_driver_host=<influxDB-host>:8086" \
-      karthikv2k/cadvisor-influxdb
+      logbase/cadvisor-influxdb
